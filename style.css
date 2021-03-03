@@ -21,6 +21,10 @@ section {
     transition: 0.3s;
 }
 
+.card-size {
+    min-height: 120px;
+}
+
 .card-text a {
     text-decoration: none;
 }
