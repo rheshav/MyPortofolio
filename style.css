@@ -12,7 +12,7 @@ section {
 }
 
 .card img {
-    max-height: 280px;
+    max-height: 230px;
 }
 
 .card:hover {
@@ -30,26 +30,26 @@ section {
 }
 
 .card-size {
-    min-height: 120px;
+    min-height: 100px;
 }
 
 footer a:hover {
     font-size: larger;
 }
 
-button {
+button#submit {
     width: 200px;
 }
 
-button span {
+button#submit span {
     background-color: #0e0446;
 }
 
-button:hover span {
+button#submit:hover span {
     display: none;
 }
 
-button:hover:before {
+button#submit:hover:before {
     content: 'Sorry :(';
 }
 
